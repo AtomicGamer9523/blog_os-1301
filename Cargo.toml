@@ -1,0 +1,12 @@
+[package]
+name = "blog_os-1301"
+version = "0.0.0"
+edition = "2021"
+
+[[bin]]
+path = "kernel.rs"
+
+[dependencies]
+bootloader = "0.9"
+# volatile = "0.2.6" # Good
+# volatile = "0.5.2" # Bad
